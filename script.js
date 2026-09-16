@@ -32,12 +32,12 @@
   form&&form.addEventListener('submit',function(e){
     e.preventDefault();
     var d=new FormData(e.currentTarget);
-    var msg='Hi Danny Automotive, I\'d like to request service.%0A%0AName: '+encodeURIComponent(d.get('name'))+
+    var msg='Hi Stretch\'s Complete Auto, I\'d like to request service.%0A%0AName: '+encodeURIComponent(d.get('name'))+
       '%0APhone: '+encodeURIComponent(d.get('phone'))+
       '%0AVehicle: '+encodeURIComponent(d.get('vehicle'))+
-      '%0ALocation: '+encodeURIComponent(d.get('location'))+
+      
       '%0AService: '+encodeURIComponent(d.get('service'))+
       '%0AIssue: '+encodeURIComponent(d.get('issue')||'');
-    window.location.href='sms:+13477220062?&body='+msg;
+    window.location.href='sms:+16186912375?&body='+msg;
   });
 })();

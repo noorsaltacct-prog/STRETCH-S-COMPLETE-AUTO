@@ -12,7 +12,7 @@ Static site for GitHub → Vercel deployment. No build step required.
 - New type system: Big Shoulders Display (headlines), Space Grotesk (body/UI), IBM Plex Mono (labels/data) — replaces Anton/Rajdhani.
 - New visual concept: a "work order / dispatch" identity — the hero ticket card, job-code tags on service cards, and the coverage "manifest" all tie back to how an actual repair shop writes up a job, instead of a generic dark hero + badge template.
 - Motion tightened throughout: hover/interaction transitions now run 140–220ms (previously 250–300ms+), with one orchestrated hero entrance instead of scattered fade-ins on every element.
-- Business details, phone number, service area and copy are unchanged and accurate: 347-722-0062, all 5 NYC boroughs + NJ, brakes/rotors specialty plus diagnostics, maintenance and general repair.
+- Business details, phone number, service area and copy are unchanged and accurate: Stretch: 618-691-2375; Laron: 314-384-5917; Marcus: 314-685-5864.
 
 ## Files
 - `index.html` / `styles.css` / `script.js` — the site

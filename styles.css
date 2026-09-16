@@ -269,3 +269,10 @@ footer .fp{margin-left:auto;font-family:var(--mono);font-size:9.5px;color:var(--
 .gallery-item:hover img{transform:scale(1.08)}
 .gallery-label{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(180deg,transparent 0%,rgba(10,10,12,.95) 60%);color:var(--red);font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:20px 16px 16px;transform:translateY(20px);transition:transform var(--med) var(--ease);opacity:0}
 .gallery-item:hover .gallery-label{transform:translateY(0);opacity:1}
+
+/* Contact team numbers */
+.contact-numbers{display:grid;gap:12px;margin-top:26px;max-width:520px}
+.contact-number{display:flex;flex-direction:column;gap:4px;padding:14px 0;border-bottom:1px solid var(--line);transition:transform var(--fast) var(--ease),color var(--fast) var(--ease)}
+.contact-number:hover{transform:translateX(4px);color:var(--red2)}
+.contact-number small{font-family:var(--mono);font-size:9px;letter-spacing:.12em;color:var(--muted)}
+.contact-number b{font-family:var(--display);font-size:clamp(24px,2.4vw,36px);font-weight:800}
