@@ -38,6 +38,6 @@
       
       '%0AService: '+encodeURIComponent(d.get('service'))+
       '%0AIssue: '+encodeURIComponent(d.get('issue')||'');
-    window.location.href='sms:+16186912375?&body='+msg;
+    window.location.href='sms:+13146855864?&body='+msg;
   });
 })();
